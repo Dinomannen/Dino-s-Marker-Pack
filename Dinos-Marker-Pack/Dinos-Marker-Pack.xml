@@ -2,7 +2,7 @@
 
 	<MarkerCategory name="dp" displayName="Dino's Marker Pack">
 		
-		<MarkerCategory name="os" displayName="Obscured Chests" fadeNear="6000" fadeFar="6500">
+		<MarkerCategory name="os" displayName="Obscured Chests" fadeNear="10000" fadeFar="10000">
 			<MarkerCategory name="mirror" displayName="Magic Mirrors" iconFile="Data/Markers/Magic_Mirror.png"/>
 
 			<MarkerCategory name="chest" displayName="Obscured Chests" behavior="2">
@@ -10,7 +10,7 @@
 				<MarkerCategory name="mc" displayName="Medium Chests" iconFile="Data/Markers/Chest.png"/>
 				<MarkerCategory name="lc" displayName="Large Chests" iconFile="Data/Markers/Chest.png"/>
 			</MarkerCategory>
-			<MarkerCategory name="tr" displayName="Trails" texture="Data/Markers/Trail.png" fadeNear="3000" fadeFar="3500">
+			<MarkerCategory name="tr" displayName="Trails" texture="Data/Markers/Trail.png" fadeNear="6000" fadeFar="6500">
 				<MarkerCategory name="oct1" displayName="Obscured Chests Trails 1"/>
 				<MarkerCategory name="oct2" displayName="Obscured Chests Trails 2"/>
 				<MarkerCategory name="oct3" displayName="Obscured Chests Trails 3"/>
@@ -149,7 +149,8 @@
 		<POI MapID="1593" xpos="-817.93" ypos="64.8682" zpos="-463.291" type="dp.os.chest.sc" GUID="Sa+T/SZsWUWevtY9spJuaA=="/>
 		<POI MapID="1593" xpos="-331.453" ypos="95.3578" zpos="-648.729" type="dp.os.chest.mc" GUID="KlZJvjbjdEGWpxICNWph6w=="/>
 
-
+		<Trail type="dp.os.tr.oct1" trailData="Data\Trails\Starlit Weald Obscure Mirrors part 1.trl"/>
+		<Trail type="dp.os.tr.oct2" trailData="Data\Trails\Starlit Weald Obscure Mirrors part 2.trl"/>
 
 
 
