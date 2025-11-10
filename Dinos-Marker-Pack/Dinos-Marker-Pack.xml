@@ -2,18 +2,18 @@
 
 	<MarkerCategory name="dp" displayName="Dino's Marker Pack">
 		
-		<MarkerCategory name="os" displayName="Obscured Chests" fadeNear="10000" fadeFar="10000">
+		<MarkerCategory name="os" displayName="Obscured Chests" fadeNear="8000" fadeFar="8000">
 			<MarkerCategory name="mirror" displayName="Magic Mirrors" iconFile="Data/Markers/Magic_Mirror.png"/>
 
-			<MarkerCategory name="chest" displayName="Obscured Chests" behavior="2">
+			<MarkerCategory name="chest" displayName="Obscured Chests" behavior="0">
 				<MarkerCategory name="sc" displayName="Small Chests" iconFile="Data/Markers/Chest.png"/>
 				<MarkerCategory name="mc" displayName="Medium Chests" iconFile="Data/Markers/Chest.png"/>
 				<MarkerCategory name="lc" displayName="Large Chests" iconFile="Data/Markers/Chest.png"/>
 			</MarkerCategory>
-			<MarkerCategory name="tr" displayName="Trails" texture="Data/Markers/Trail.png" fadeNear="6000" fadeFar="6500">
-				<MarkerCategory name="oct1" displayName="Obscured Chests Trails 1"/>
-				<MarkerCategory name="oct2" displayName="Obscured Chests Trails 2"/>
-				<MarkerCategory name="oct3" displayName="Obscured Chests Trails 3"/>
+			<MarkerCategory name="tr" displayName="Trails" fadeNear="6000" fadeFar="6000">
+				<MarkerCategory name="oct1" displayName="Obscured Chests Trails 1" texture="Data/Markers/Trail_Pink.png"/>
+				<MarkerCategory name="oct2" displayName="Obscured Chests Trails 2" texture="Data/Markers/Trail_Blue.png"/>
+				<MarkerCategory name="oct3" displayName="Obscured Chests Trails 3" texture="Data/Markers/Trail_Green.png"/>
 			</MarkerCategory>
 		</MarkerCategory>
 		
@@ -21,10 +21,11 @@
 	</MarkerCategory>
 	
 	<POIs>
+
+		<!-- -->
 		<POI MapID="1595" xpos="527.053" ypos="47.1928" zpos="752.706" type="dp.os.mirror" GUID="3iLtdnbV1UO1b4bLNSxSDA=="/>
 		<POI MapID="1595" xpos="506.171" ypos="28.6872" zpos="808.362" type="dp.os.chest.sc" GUID="WFTkXVbY5EWm10mpD9BE+Q=="/>
 		<POI MapID="1595" xpos="238.707" ypos="41.4512" zpos="762.683" type="dp.os.chest.sc" GUID="gawuaPMpuUarRSeg0PEt9Q=="/>
-		<POI MapID="1595" xpos="-84.7817" ypos="64.2871" zpos="841.769" type="dp.os.mirror" GUID="vZbBt9WXk02mpwF8HKKhIQ=="/>
 		<POI MapID="1595" xpos="-455.848" ypos="56.4615" zpos="727.497" type="dp.os.mirror" GUID="we9knr8WAECUKeUNghbNEg=="/>
 		<POI MapID="1595" xpos="-315.394" ypos="76.1026" zpos="196.164" type="dp.os.mirror" GUID="VjP1uiWJ/Uy1AuYJQz8VPg=="/>
 		<POI MapID="1595" xpos="-57.807" ypos="32.2802" zpos="-47.3393" type="dp.os.mirror" GUID="CT/dglzp0Eay62Hzp2XSVw=="/>
@@ -34,8 +35,45 @@
 		<POI MapID="1595" xpos="329.222" ypos="35.88" zpos="-344.771" type="dp.os.mirror" GUID="qxFdOSW6HUeFvDoMgs4eFQ=="/>
 		<POI MapID="1595" xpos="187.4" ypos="42.0027" zpos="521.613" type="dp.os.chest.sc" GUID="33hw65t860SudAYImUUmrw=="/>
 		<POI MapID="1595" xpos="232.42" ypos="1.81709" zpos="324.089" type="dp.os.chest.sc" GUID="TGuAtI/msEyopQi/5pgPRw=="/>
-		<POI MapID="1595" xpos="217.286" ypos="12.6784" zpos="273.802" type="dp.os.chest.sc" GUID="bjOPmPD8mkuEejbODKSj1A=="/>
-		<POI MapID="1595" xpos="386.833" ypos="53.6481" zpos="365.259" type="dp.os.chest.lc" GUID="Mjac9+qI0EurxVTT0Zuw2w=="/>
+
+		<!-- Chest Shipwreak route 1 WP point 1 -->
+		<POI MapID="1595" xpos="217.286" ypos="12.6784" zpos="273.802" type="dp.os.chest.sc" GUID="bjOPmPD8mkuEejbODKSj1A=="
+		copy="[&BJwPAAA=]" copy-message="Waypoint to Dark Leviathan Waypoint &#xA; Dark Leviathan Waypoint copied to Clipboard!"/>
+		
+		<!-- Chest Shipwreak route 1 Reset point -->
+		<POI MapID="1595" xpos="386.833" ypos="53.6481" zpos="365.259" type="dp.os.chest.lc" GUID="Mjac9+qI0EurxVTT0Zuw2w=="
+		copy="[&BJwPAAA=]" copy-message="Reset Map!! &#xA; Start from Dark Leviathan Waypoint &#xA; Dark Leviathan Waypoint copied to Clipboard!"/>
+		
+		<!-- Chest Shipwreak route 2 Reset point -->
+		<POI MapID="1595" xpos="-8.79707" ypos="16.3335" zpos="-400.44" type="dp.os.tr.oct2" GUID="PbVYuj+qikGB0xT5SNqqTg==" iconFile="Data/Markers/Chest.png"
+		copy="[&BJEPAAA=]" copy-message="Reset Map!! &#xA; Start from Pub Canach Waypoint &#xA; Pub Canach Waypoint copied to Clipboard!"/>
+
+		<!-- Chest Shipwreak route 3 WP point 1 -->
+		<POI MapID="1595" xpos="-126.866" ypos="81.195" zpos="-473.55" type="dp.os.chest.sc" GUID="1Q9mo/XTC0ajxf6Oo/kRTQ=="
+		copy="[&BJwPAAA=]" copy-message="Waypoint to Dark Leviathan Waypoint &#xA; Dark Leviathan Waypoint copied to Clipboard!"/>
+
+		<!-- Chest Shipwreak route 3 WP point 1 -->
+		<POI MapID="1595" xpos="-84.7817" ypos="64.2871" zpos="841.769" type="dp.os.mirror" GUID="vZbBt9WXk02mpwF8HKKhIQ=="
+		copy="[&BJEPAAA=]" copy-message="Waypoint to Pub Canach Waypoint &#xA; Pub Canach Waypoint copied to Clipboard!"/>
+
+		<!-- Chest Shipwreak route 3 Reset point -->
+
+		<!-- Chest Starlit Weald Route 1 WP point 1 -->
+		<POI MapID="1593" xpos="804.761" ypos="88.9612" zpos="204.458" type="dp.os.chest.sc" GUID="1P478gYIYkiWc5pNqSbhDw=="
+		copy="[&BJ4PAAA=]" copy-message="Waypoint to Priory Expedition Waypoint &#xA; Priory Expedition Waypoint copied to Clipboard!"/>
+
+		<!-- Chest Starlit Weald Route 1 WP point 2 -->
+		<POI MapID="1593" xpos="849.43" ypos="50.3102" zpos="430.517" type="dp.os.chest.lc" GUID="35H0YKyQEkO8kdV1FpPmTg=="
+		copy="[&BJ4PAAA=]" copy-message="Waypoint to Priory Expedition Waypoint &#xA; Priory Expedition Waypoint copied to Clipboard!"/>
+
+		<!-- Chest Starlit Weald Route 1 Reset Point -->
+		<POI MapID="1593" xpos="-168.228" ypos="47.4647" zpos="250.639" type="dp.os.chest.sc" GUID="QgmtERIvH0O0gg/goAtuhw=="
+		copy="[&BIoPAAA=]" copy-message="Reset Map!! &#xA; Start from Hunter's Camp Waypoint &#xA; Hunter's Camp Waypoint copied to Clipboard!"/>
+
+
+
+
+
 		<POI MapID="1595" xpos="330.165" ypos="34.9687" zpos="501.774" type="dp.os.chest.mc" GUID="EcvBBXTRDEa28NNobjJmuw=="/>
 		<POI MapID="1595" xpos="663.629" ypos="15.3797" zpos="431.627" type="dp.os.chest.mc" GUID="t2EdO0RhYUajpGpSlwQsTQ=="/>
 		<POI MapID="1595" xpos="347.818" ypos="39.0419" zpos="-9.53127" type="dp.os.chest.sc" GUID="2tzaEDagFU2/JVdeq3UE8w=="/>
@@ -43,7 +81,6 @@
 		<POI MapID="1595" xpos="76.4702" ypos="31.6658" zpos="-239.17" type="dp.os.chest.sc" GUID="iI3oz2xs10SNVutHnJjF/A=="/>
 		<POI MapID="1595" xpos="-8.21472" ypos="16.288" zpos="-400.377" type="dp.os.chest.sc" GUID="gmFD53/Qd0mgClwl2H8Pbg=="/>
 		<POI MapID="1595" xpos="-118.309" ypos="30.6281" zpos="-374.789" type="dp.os.chest.sc" GUID="L4tn9uGDEkaAlA6HZWGcmQ=="/>
-		<POI MapID="1595" xpos="-126.866" ypos="81.195" zpos="-473.55" type="dp.os.chest.sc" GUID="1Q9mo/XTC0ajxf6Oo/kRTQ=="/>
 		<POI MapID="1595" xpos="190.073" ypos="38.2403" zpos="-538.917" type="dp.os.chest.sc" GUID="8l/4u+DgJkWAwVHL3ceseg=="/>
 		<POI MapID="1595" xpos="182.938" ypos="36.5658" zpos="-546.627" type="dp.os.chest.sc" GUID="2B/FWqrZk0q5mP2tEqP7dQ=="/>
 		<POI MapID="1595" xpos="146.694" ypos="59.9191" zpos="-738.801" type="dp.os.chest.sc" GUID="jDpMaAEoxEiPXumhmPnYpA=="/>
@@ -93,7 +130,6 @@
 		<POI MapID="1593" xpos="852.065" ypos="76.8188" zpos="-62.5624" type="dp.os.mirror" GUID="c2MvmrcBmE2jF5Az27/YjA=="/>
 		<POI MapID="1593" xpos="814.516" ypos="4.97885" zpos="-169.497" type="dp.os.chest.sc" GUID="8Kqk0vKe5keRe419UdGvmw=="/>
 		<POI MapID="1593" xpos="731.57" ypos="5.9733" zpos="-5.79038" type="dp.os.chest.sc" GUID="HvRQjHTOz0qAj7YFZy7DUA=="/>
-		<POI MapID="1593" xpos="804.761" ypos="88.9612" zpos="204.458" type="dp.os.chest.sc" GUID="1P478gYIYkiWc5pNqSbhDw=="/>
 		<POI MapID="1593" xpos="134.097" ypos="69.1422" zpos="-113.402" type="dp.os.mirror" GUID="RaQ/+hRDX0WWOH7EiyPXdQ=="/>
 		<POI MapID="1593" xpos="375.727" ypos="1.81349" zpos="65.9771" type="dp.os.chest.sc" GUID="qhdefIlXXEmBpCoyft49Yw=="/>
 		<POI MapID="1593" xpos="558.319" ypos="3.88978" zpos="100.918" type="dp.os.chest.sc" GUID="Hbg9taEi6UGgi3EQ+6nrTA=="/>
@@ -119,7 +155,6 @@
 		<POI MapID="1593" xpos="404.745" ypos="39.201" zpos="435.09" type="dp.os.chest.sc" GUID="TQuauK2i6EOENNdGwGZZ+g=="/>
 		<POI MapID="1593" xpos="508.384" ypos="6.29422" zpos="346.416" type="dp.os.chest.mc" GUID="LC4VQlnzI0enoSCg2mlzwQ=="/>
 		<POI MapID="1593" xpos="688.903" ypos="39.3472" zpos="306.511" type="dp.os.chest.mc" GUID="CU2i3Sgtbk2x7OqJ+xlASg=="/>
-		<POI MapID="1593" xpos="849.43" ypos="50.3102" zpos="430.517" type="dp.os.chest.lc" GUID="35H0YKyQEkO8kdV1FpPmTg=="/>
 		<POI MapID="1593" xpos="-392.851" ypos="135.908" zpos="-23.4447" type="dp.os.mirror" GUID="fDK7p5dhSU+ZWdAM5TExBw=="/>
 		<POI MapID="1593" xpos="-717.227" ypos="65.795" zpos="70.0882" type="dp.os.chest.sc" GUID="C2u3CFfuqUa86S+Az9u5hA=="/>
 		<POI MapID="1593" xpos="-534.239" ypos="106.135" zpos="131.225" type="dp.os.chest.sc" GUID="JN/s4NRfj06WQnm2lnvPOw=="/>
@@ -132,7 +167,6 @@
 		<POI MapID="1593" xpos="373.423" ypos="56.0128" zpos="656.905" type="dp.os.chest.sc" GUID="XTb6gFFt9Eu9HtSDT3Ofaw=="/>
 		<POI MapID="1593" xpos="257.276" ypos="11.2945" zpos="226.735" type="dp.os.chest.mc" GUID="F2cGem952EiChwbsTLFjWA=="/>
 		<POI MapID="1593" xpos="20.7209" ypos="22.0323" zpos="184.146" type="dp.os.chest.sc" GUID="ki+2h1iKG0SCLg3llF30eA=="/>
-		<POI MapID="1593" xpos="-168.228" ypos="47.4647" zpos="250.639" type="dp.os.chest.sc" GUID="QgmtERIvH0O0gg/goAtuhw=="/>
 		<POI MapID="1593" xpos="-778.403" ypos="118.472" zpos="381.634" type="dp.os.chest.sc" GUID="jqQjCMuH8kGB0rRay5aLQw=="/>
 		<POI MapID="1593" xpos="-780.425" ypos="92.0502" zpos="168.316" type="dp.os.chest.lc" GUID="VdHX74kCUUmmAUAQoHpucA=="/>
 		<POI MapID="1593" xpos="-422.114" ypos="64.1524" zpos="125.028" type="dp.os.chest.sc" GUID="28SWk/pJYEWaiubhuy+HBg=="/>
@@ -152,7 +186,16 @@
 		<Trail type="dp.os.tr.oct1" trailData="Data\Trails\Starlit Weald Obscure Mirrors part 1.trl"/>
 		<Trail type="dp.os.tr.oct2" trailData="Data\Trails\Starlit Weald Obscure Mirrors part 2.trl"/>
 
+		<POI MapID="1595" xpos="225.78" ypos="1.35547" zpos="-455.032" type="dp.os.tr.oct1" GUID="iZFNMBiRE02QktxVVbv7Bw==" iconFile="Data/Markers/Sign_1.png"/>
+		<POI MapID="1595" xpos="565.112" ypos="0.501212" zpos="664.321" type="dp.os.tr.oct1" GUID="Z/DldVBG50aXAO7Ncez4Nw==" iconFile="Data/Markers/Sign_2.png"/>
+		<POI MapID="1595" xpos="223.2" ypos="1.69116" zpos="-454.589" type="dp.os.tr.oct3" GUID="VpgfNqFKIUuMvad564Z35Q==" iconFile="Data/Markers/Sign_1.png"/>
+		<POI MapID="1595" xpos="565.127" ypos="0.467845" zpos="664.726" type="dp.os.tr.oct3" GUID="ovFoc24wvkOcomhDCcdVeQ==" iconFile="Data/Markers/Sign_2.png"/>
+		<POI MapID="1595" xpos="216.03" ypos="1.57497" zpos="-462.653" type="dp.os.tr.oct3" GUID="KuTI3WrkRE+vGRmfteClfg==" iconFile="Data/Markers/Sign_3.png"/>
 
+
+		<POI MapID="1593" xpos="504.139" ypos="2.61211" zpos="-529.447" type="dp.os.tr.oct1" GUID="0O5+gCay/EyFFcsnEHMpyA==" iconFile="Data/Markers/Sign_1.png"/>
+		<POI MapID="1593" xpos="-147.019" ypos="62.5106" zpos="-104.673" type="dp.os.tr.oct1" GUID="7ZGDxgAfuUaZF/Q2daUfaA==" iconFile="Data/Markers/Sign_2.png"/>
+		<POI MapID="1593" xpos="-155.133" ypos="62.3551" zpos="-106.019" type="dp.os.tr.oct1" GUID="PA+OZ+ZBpEuhwyXFW5i6MA==" iconFile="Data/Markers/Sign_3.png"/>
 
 	</POIs>
 
