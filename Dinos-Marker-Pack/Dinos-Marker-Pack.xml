@@ -5,7 +5,7 @@
 		<MarkerCategory name="os" displayName="Obscured Chests" fadeNear="8000" fadeFar="8000">
 			<MarkerCategory name="mirror" displayName="Magic Mirrors" iconFile="Data/Markers/Magic_Mirror.png"/>
 
-			<MarkerCategory name="chest" displayName="Obscured Chests" behavior="0">
+			<MarkerCategory name="chest" displayName="Obscured Chests" behavior="2">
 				<MarkerCategory name="sc" displayName="Small Chests" iconFile="Data/Markers/Chest.png"/>
 				<MarkerCategory name="mc" displayName="Medium Chests" iconFile="Data/Markers/Chest.png"/>
 				<MarkerCategory name="lc" displayName="Large Chests" iconFile="Data/Markers/Chest.png"/>
@@ -35,6 +35,7 @@
 		<POI MapID="1595" xpos="329.222" ypos="35.88" zpos="-344.771" type="dp.os.mirror" GUID="qxFdOSW6HUeFvDoMgs4eFQ=="/>
 		<POI MapID="1595" xpos="187.4" ypos="42.0027" zpos="521.613" type="dp.os.chest.sc" GUID="33hw65t860SudAYImUUmrw=="/>
 		<POI MapID="1595" xpos="232.42" ypos="1.81709" zpos="324.089" type="dp.os.chest.sc" GUID="TGuAtI/msEyopQi/5pgPRw=="/>
+		<POI MapID="1595" xpos="-84.7817" ypos="64.2871" zpos="841.769" type="dp.os.mirror" GUID="vZbBt9WXk02mpwF8HKKhIQ=="/>
 
 		<!-- Chest Shipwreak route 1 WP point 1 -->
 		<POI MapID="1595" xpos="217.286" ypos="12.6784" zpos="273.802" type="dp.os.chest.sc" GUID="bjOPmPD8mkuEejbODKSj1A=="
@@ -52,8 +53,8 @@
 		<POI MapID="1595" xpos="-126.866" ypos="81.195" zpos="-473.55" type="dp.os.chest.sc" GUID="1Q9mo/XTC0ajxf6Oo/kRTQ=="
 		copy="[&BJwPAAA=]" copy-message="Waypoint to Dark Leviathan Waypoint &#xA; Dark Leviathan Waypoint copied to Clipboard!"/>
 
-		<!-- Chest Shipwreak route 3 WP point 1 -->
-		<POI MapID="1595" xpos="-84.7817" ypos="64.2871" zpos="841.769" type="dp.os.mirror" GUID="vZbBt9WXk02mpwF8HKKhIQ=="
+		<!-- Mirror Shipwreak Route 3 WP Point 2 -->
+		<POI MapID="1595" xpos="-84.793" ypos="64.2858" zpos="841.684" type="dp.os.tr.oct3" GUID="nATX5SzGwEevKr7DNUTmvw==" iconFile="Data/Markers/Blank.png"
 		copy="[&BJEPAAA=]" copy-message="Waypoint to Pub Canach Waypoint &#xA; Pub Canach Waypoint copied to Clipboard!"/>
 
 		<!-- Chest Shipwreak route 3 Reset point -->
@@ -69,7 +70,6 @@
 		<!-- Chest Starlit Weald Route 1 Reset Point -->
 		<POI MapID="1593" xpos="-168.228" ypos="47.4647" zpos="250.639" type="dp.os.chest.sc" GUID="QgmtERIvH0O0gg/goAtuhw=="
 		copy="[&BIoPAAA=]" copy-message="Reset Map!! &#xA; Start from Hunter's Camp Waypoint &#xA; Hunter's Camp Waypoint copied to Clipboard!"/>
-
 
 
 
