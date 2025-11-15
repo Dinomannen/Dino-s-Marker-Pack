@@ -71,6 +71,14 @@
 		<POI MapID="1593" xpos="-168.228" ypos="47.4647" zpos="250.639" type="dp.os.chest.sc" GUID="QgmtERIvH0O0gg/goAtuhw=="
 		copy="[&BIoPAAA=]" copy-message="Reset Map!! &#xA; Start from Hunter's Camp Waypoint &#xA; Hunter's Camp Waypoint copied to Clipboard!"/>
 
+		<!-- Skyscale and glider markers over to last chest in route 1 part 2 where mounts are not allowed -->
+
+			<!-- Skill 8 marker -->
+		<POI MapID="1593" xpos="739.55" ypos="75.705" zpos="372.241" type="dp.os.tr.oct1" GUID="/Z/u7QwiWUSZdyijMNy0eQ==" iconFile="Data/Markers/MountLaunch.png"/>
+			
+			<!-- Glider marker -->
+		<POI MapID="1593" xpos="758.957" ypos="74.545" zpos="393.679" type="dp.os.tr.oct1" GUID="nFpBpqpTr0CtE6+WkfKSVA=="/>
+
 
 
 
